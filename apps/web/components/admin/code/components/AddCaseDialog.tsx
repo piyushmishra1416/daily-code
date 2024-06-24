@@ -11,7 +11,7 @@ import {
   useToast,
 } from "@repo/ui";
 import { useState } from "react";
-import { DialogClose, DialogTrigger } from "@radix-ui/react-dialog";
+import { DialogClose, DialogTrigger } from "@repo/ui";
 import { createProblem, createProblemStatement, createTestCase } from "../../../utils";
 import { useRecoilValue, useSetRecoilState, useRecoilState } from "recoil";
 import { CodeLanguage, ProblemStatement } from "prisma/prisma-client";

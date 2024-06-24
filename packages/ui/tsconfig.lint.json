@@ -3,6 +3,6 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src", "turbo", "tailwind.config.js"],
+  "include": ["src", "turbo", "tailwind.config.js", "vitest.config.ts", "setupVitest.ts" ],
   "exclude": ["node_modules", "dist"]
 }
